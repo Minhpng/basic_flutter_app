@@ -11,7 +11,7 @@ double tinhtong(var a, [double? b, double? c]) {
 void main(List<String> args) {
   var number = <int>[1, 2, 3];
 
-  var sum = number.fold<String>(1, (value, element) => value + element);
+  var sum = number.fold<int>(1, (value, element) => value + element);
 
   print(sum);
 }
